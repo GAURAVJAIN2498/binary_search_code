@@ -50,6 +50,13 @@ Run with this-
 Selection sort is greater then Bubble sort.
 Bubble sort is not a good algorithm for unsorted data. but if the given data is provide sorted then Bubble sort is a best algorithm.
 
+Result -
+![image](https://github.com/GAURAVJAIN2498/binary_search_code/assets/136182348/f707ef89-a8c7-47e3-bef2-6eb0f3e7ae5e)
+![image](https://github.com/GAURAVJAIN2498/binary_search_code/assets/136182348/d0bdb8d2-9068-427f-8c3c-c8946f714f86)
+
+when the data is already sorted-
+![image](https://github.com/GAURAVJAIN2498/binary_search_code/assets/136182348/ea7450a9-6826-4aa9-9c0d-c655ec10b721)
+
 
 
 # Connect-
