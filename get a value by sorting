@@ -1,0 +1,25 @@
+
+
+
+db = list(range(1,33))
+
+def lwbs(db, value):
+    start = 0
+    end = len(db) - 1
+    middle = int( (start+end) / 2 )
+    
+    while not(db[middle]==value) and start<=end:
+        if value > db[middle]:
+            start = middle + 1
+        else:
+            end = middle - 1
+        middle = int((start+end)/2)    
+        print("start: " , start , "end: ", end , "middle:", middle)
+    if db[middle] == value:
+        print("we found")
+    else:
+        print("not found")
+    print("start: " , start , "end: ", end , "middle:", middle)    
+
+  lwbs(db, 29)
+  
