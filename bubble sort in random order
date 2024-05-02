@@ -1,0 +1,22 @@
+
+
+def lw_bubble_sort(data):
+    """ sorting using ALGO : Bubble sort """
+    isswap=False
+    
+    for f in range(len(data) - 1):
+        print("first data" , f)
+        for s in range(len(data) -1 -f):
+            print("second data" , s)
+            if data[s] > data[s+1]:
+                data[s], data[s+1] = data[s+1],data[s]
+                isswap=True
+                print("swap done...")
+            if not isswap:
+                return "already sorted..."
+        print("pass completed...")
+        print("every pass result", data)
+    return data        
+
+db=[3,1,2,6,7,9,0,5]
+lw_bubble_sort(db)
